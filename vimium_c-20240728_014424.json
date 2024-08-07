@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "2024/5/23 14:53:33",
-	"time": 1716443613865,
+	"@time": "2024/7/28 01:44:24",
+	"time": 1722098664523,
 	"environment": {
-		"extension": "1.99.994",
+		"extension": "2.11.1",
 		"platform": "win",
-		"chromium": 125
+		"chromium": 124
 	},
 	"allBrowserUrls": true,
 	"exclusionRules": [
@@ -48,6 +48,14 @@
 		{
 			"passKeys": "",
 			"pattern": ":https://translate-multi-gh.vercel.app/"
+		},
+		{
+			"passKeys": "& / n r ",
+			"pattern": ":https://dlt.kitetu.com/"
+		},
+		{
+			"passKeys": "/ t ",
+			"pattern": ":https://www.youtube.com/"
 		}
 	],
 	"keyLayout": 2,
@@ -130,14 +138,14 @@
 		"map lcu LinkHints.activateCopyLinkUrl",
 		"map ldi LinkHints.activateDownloadImage",
 		"map ldf LinkHints.activateDownloadLink",
-		"map lg LinkHints.activateEdit",
+		"map lr LinkHints.activateEdit",
 		"map t LinkHints.activateFocus",
 		"map . LinkHints.activateHover",
 		"map lt LinkHints.activateLeave",
 		"map lji LinkHints.activateOpenImage",
-		"map r LinkHints.activateOpenInNewForegroundTab ",
-		"map lr LinkHints.activateOpenInNewForegroundTab newtab=\"window\"",
-		"map g LinkHints.activateOpenInNewTab",
+		"map g LinkHints.activateOpenInNewForegroundTab ",
+		"map lg LinkHints.activateOpenInNewForegroundTab newtab=\"window\"",
+		"map r LinkHints.activateOpenInNewTab",
 		"# LinkHints.activateOpenIncognito",
 		"# LinkHints.activateOpenVomnibar",
 		"# LinkHints.activateSearchLinkText",
